@@ -1,0 +1,1 @@
+uwsgi --http :8000 --module rpc_invoker --process 1 --gevent 100
